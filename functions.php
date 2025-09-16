@@ -148,7 +148,7 @@ function tagbroker_scripts() {
 	wp_enqueue_style( 'boostrap-style', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 	wp_enqueue_script( 'boostrap-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.bundle.min.js', array('jquery'));
 
-	wp_enqueue_style( 'template-style', get_template_directory_uri() . '/theme.min.css');
+	wp_enqueue_style( 'template-style', get_template_directory_uri() . '/theme.css');
 	wp_enqueue_script( 'template-script', get_template_directory_uri() . '/js/theme.js');
 
 	wp_enqueue_script( 'jquery-counterup', get_template_directory_uri() . '/js/jquery.counterup.min.js', array('jquery'));
