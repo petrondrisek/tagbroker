@@ -38,18 +38,15 @@ header.site-header {
 
 @media (max-width: 576px) {
   header.site-header .main-navigation ul.nav-menu {
-    margin-top: 10px;
+    margin-top: 48px;
     position: absolute;
     background: rgba(255, 255, 255, 0.9);
     width: 100%;
     right: 0;
     z-index: 50;
     padding: 20px 0;
-    opacity: 0;
     -webkit-transform: translateY(-50px);
             transform: translateY(-50px);
-    -webkit-transition: all 2s ease-in;
-    transition: all 2s ease-in;
   }
   header.site-header .main-navigation ul.nav-menu.toggled {
     -webkit-transform: translateY(0px);
